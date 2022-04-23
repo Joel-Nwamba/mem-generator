@@ -1,0 +1,33 @@
+body {
+    margin: 0;
+    padding: 0;
+}
+
+.header {
+    display: flex;
+    align-items: center;
+    height: 65px;
+    background: linear-gradient(90deg, #672280 1.18%, #A626D3 100%);
+    color: #fff;
+    padding: 20px;
+}
+
+.header--image {
+    margin-right: 6px;
+    height: 100%
+}
+
+.header--title {
+    margin-right: auto;
+    font-family: 'Karla', sans-serif;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 24px;
+}
+
+.header--project {
+    font-size: 12px;
+    font-weight: 500;
+    line-height: 15px;
+    font-family: 'Inter', sans-serif;
+}
